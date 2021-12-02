@@ -25,7 +25,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #E81C2E;
+    color: #69a9e6;
     outline: none;
     text-decoration: none;
 }
@@ -35,8 +35,8 @@ a:focus {
     text-align: center; 
     font-size: 16px;
     font-weight: 500;
-    color: #ffffff;
-    background: #E81C2E;
+    color: #69a9e6;
+    background: #ffffff;
     border: none;
     border-radius: 60px;
     box-shadow: inset 0 0 0 0 #202C45;
@@ -44,11 +44,11 @@ a:focus {
     -webkit-transition: ease-out 0.5s;
     -moz-transition: ease-out 0.5s;
 }
-
+ /*Learn more button*/
 .btn.btn-custom:hover {
-    color: #E81C2E;
-    background: #202C45;
-    box-shadow: inset 200px 0 0 0 #202C45;
+    color: #ffffff;
+    background: #69a9e6;
+    box-shadow: inset 200px 0 0 0 #69a9e6;
 }
 
 .btn:focus,
@@ -128,7 +128,7 @@ a:focus {
     right: 15px;
     bottom: 15px;
     transition: .5s;
-    background: #E81C2E;
+    background: #69a9e6;
     border-radius: 44px;
     z-index: 9;
 }
@@ -137,11 +137,6 @@ a:focus {
     color: #ffffff;
     padding-top: 10px;
 }
-
-.back-to-top:hover {
-    background: #202C45;
-}
-
 
 /**********************************/
 /********** Top Bar CSS ***********/
@@ -161,8 +156,8 @@ a:focus {
 
 .top-bar .logo h1 {
     margin: -4px 0 0 0;
-    color: #E81C2E;
-    font-size: 50px;
+    color: #69a9e6;
+    font-size: 35px;
     line-height: 50px;
     font-weight: 800;
     letter-spacing: 1px;
@@ -170,7 +165,7 @@ a:focus {
 }
 
 .top-bar .logo h1 span {
-    color: #202C45;
+    color: #000000;
 }
 
 .top-bar .logo img {
@@ -228,7 +223,7 @@ a:focus {
 /**********************************/
 .nav-bar {
     position: relative;
-    background: #202C45;
+    background: #000000;
 }
 
 .nav-bar.nav-sticky {
@@ -242,7 +237,7 @@ a:focus {
 
 .nav-bar .navbar {
     padding: 20px 0;
-    background: #202C45 !important;
+    background: #000000 !important;
     transition: .3s;
 }
 
@@ -262,7 +257,7 @@ a:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #E81C2E;
+    color: #69a9e6;
 }
 
 .nav-bar .dropdown-menu {
@@ -273,15 +268,15 @@ a:focus {
 }
 
 .nav-bar .btn.btn-custom {
-    color: #202C45;
+    color: #69a9e6;
     background: #ffffff;
-    box-shadow: inset 0 0 0 0 #E81C2E;
+    box-shadow: inset 0 0 0 0 #69a9e6;
 }
 
 .nav-bar .btn:hover {
     color: #ffffff;
-    background: #E81C2E;
-    box-shadow: inset 200px 0 0 0 #E81C2E;
+    background: #69a9e6;
+    box-shadow: inset 200px 0 0 0 #69a9e6;
 }
 
 @media (min-width: 992px) {
@@ -372,7 +367,7 @@ a:focus {
 }
 
 .carousel .carousel-text h3 {
-    color: #E81C2E;
+    color: #69a9e6;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 4px;
@@ -397,11 +392,11 @@ a:focus {
 
 .carousel .btn.btn-custom {
     padding: 20px 45px 22px 45px;
-    color: #ffffff;
+    color: #69a9e6;
 }
 
 .carousel .btn.btn-custom:hover {
-    color: #E81C2E;
+    color: #ffffff;
 }
 
 .carousel .owl-nav {
@@ -440,7 +435,7 @@ a:focus {
 .carousel .owl-nav .owl-prev:hover,
 .carousel .owl-nav .owl-next:hover {
     color: #ffffff;
-    background: #E81C2E;
+    background: #69a9e6;
 }
 
 .carousel .animated {
@@ -518,8 +513,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 90px 0;
     text-align: center;
-    background: #202C45;
-    border-top: 1px dotted #ffffff;
+    background: #69a9e6;
 }
 
 .page-header h2 {
@@ -538,7 +532,7 @@ a:focus {
     height: 2px;
     left: calc(50% - 50px);
     bottom: 0;
-    background: #ffffff;
+    background: #69a9e6;
 }
 
 .page-header a {
@@ -549,7 +543,7 @@ a:focus {
 }
 
 .page-header a:hover {
-    color: #E81C2E;
+    color: #000000;
 }
 
 .page-header a::after {
@@ -615,7 +609,7 @@ a:focus {
     font-weight: 700;
     letter-spacing: 4px;
     text-transform: uppercase;
-    color: #E81C2E;
+    color: #69a9e6;
 }
 
 .section-header p::after {
@@ -625,7 +619,7 @@ a:focus {
     height: 2px;
     left: 25%;
     bottom: 0;
-    background: #E81C2E;
+    background: #69a9e6;
 }
 
 .section-header.text-left p::after {
@@ -699,7 +693,7 @@ a:focus {
 
 .about .about-content ul li i {
     margin-right: 8px;
-    color: #E81C2E;
+    color: #69a9e6;
 }
 
 
@@ -721,7 +715,7 @@ a:focus {
 }
 
 .service .service-item i {
-    color: #202C45;
+    color: #000000;
     font-size: 75px;
     line-height: 75px;
     margin-bottom: 20px;
@@ -731,7 +725,7 @@ a:focus {
     margin: 0;
     font-size: 60px;
     line-height: 60px;
-    background-image: linear-gradient(#E81C2E, #202C45);
+    background-image: linear-gradient(#69a9e6, #000000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: .5s;
@@ -759,7 +753,7 @@ a:focus {
     margin: 45px 0;
     display: flex;
     align-items: center;
-    background: #202C45;
+    background: #69a9e6;
 }
 
 .facts .facts-item {
@@ -771,7 +765,7 @@ a:focus {
 .facts .facts-item i {
     margin-top: 15px;
     font-size: 45px;
-    color: #E81C2E;
+    color: #000000;
 }
 
 .facts .facts-text {
@@ -862,7 +856,7 @@ a:focus {
 
 .price .price-item.featured-item h2,
 .price .price-item.featured-item h3 {
-    color: #E81C2E;
+    color: #69a9e6;
 }
 
 .price .price-body {
@@ -896,27 +890,27 @@ a:focus {
 }
 
 .price .price-item .price-footer .btn.btn-custom {
-    color: #E81C2E;
-    background: #202C45;
-    box-shadow: inset 0 0 0 0 #E81C2E;
+    color: #ffffff;
+    background: #69a9e6;
+    box-shadow: inset 0 0 0 0 #69a9e6;
 }
 
 .price .price-item .price-footer .btn.btn-custom:hover {
-    color: #ffffff;
-    background: #E81C2E;
-    box-shadow: inset 200px 0 0 0 #E81C2E;
+    color: #000000;
+    background: #ffffff;
+    box-shadow: inset 200px 0 0 0 #69a9e6;
 }
 
 .price .price-item.featured-item .price-footer .btn.btn-custom {
     color: #ffffff;
-    background: #E81C2E;
-    box-shadow: inset 0 0 0 0 #202C45;
+    background: #69a9e6;
+    box-shadow: inset 0 0 0 0 #69a9e6;
 }
 
 .price .price-item.featured-item .price-footer .btn.btn-custom:hover {
-    color: #E81C2E;
-    background: #202C45;
-    box-shadow: inset 200px 0 0 0 #202C45;
+    color: #000000;
+    background: #ffffff;
+    box-shadow: inset 200px 0 0 0 #69a9e6;
 }
 
 
@@ -937,7 +931,7 @@ a:focus {
 .location .location-item i {
     padding-top: 3px;
     font-size: 30px;
-    color: #E81C2E;
+    color: #69a9e6;
 }
 
 .location .location-text {
@@ -960,7 +954,7 @@ a:focus {
 
 .location .location-form {
     padding: 45px 30px;
-    background: #E81C2E;
+    background: #69a9e6;
     border-radius: 5px;
 }
 
@@ -1001,20 +995,20 @@ a:focus {
 
 .location .location-form .btn.btn-custom {
     width: 100%;
-    color: #E81C2E;
+    color: #69a9e6;
     background: #ffffff;
     box-shadow: inset 0 0 0 0 #202C45;
 }
 
 .location .location-form .btn.btn-custom:hover {
     color: #ffffff;
-    background: #E81C2E;
-    box-shadow: inset 400px 0 0 0 #202C45;
+    background: #69a9e6;
+    box-shadow: inset 400px 0 0 0 #000000;
 }
 
 @media(min-width: 576px) and (max-width: 991.89px) {
     .location .location-form .btn.btn-custom:hover {
-        box-shadow: inset 650px 0 0 0 #202C45;
+        box-shadow: inset 650px 0 0 0 #69a9e6;
     }
 }
 
@@ -1053,13 +1047,13 @@ a:focus {
     width: 100%;
     padding: 35px 30px 30px 30px;
     text-align: center;
-    background: #202C45;
+    background: #69a9e6;
     border-radius: 0 0 5px 5px;
     transition: .5s;
 }
 
 .team .team-item:hover .team-text {
-    background: #E81C2E;
+    background: #000000;
 }
 
 .team .team-text h2 {
@@ -1094,17 +1088,17 @@ a:focus {
     text-align: center;
     font-size: 16px;
     color: #ffffff;
-    background: #202C45;
+    background: #69a9e6;
     border-radius: 40px;
     transition: .5s;
 }
 
 .team .team-item:hover .team-social a {
-    background: #E81C2E;
+    background: #000000;
 }
 
 .team .team-social a:hover {
-    color: #202C45;
+    color: #69a9e6;
 }
 
 
@@ -1171,7 +1165,7 @@ a:focus {
     font-size: 25px;
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: #E81C2E;
+    color: #69a9e6;
     margin-right: 10px;
 }
 
@@ -1190,144 +1184,8 @@ a:focus {
 }
 
 .testimonial .owl-dot.active {
-    background: #E81C2E;
+    background: #69a9e6;
 }
-
-
-/*******************************/
-/*********** Blog CSS **********/
-/*******************************/
-.blog {
-    position: relative;
-    width: 100%;
-    padding: 45px 0 0 0;
-}
-
-.blog .blog-item {
-    margin-bottom: 45px;
-}
-
-.blog .blog-img {
-    position: relative;
-    width: 100%;
-}
-
-.blog .blog-img img {
-    width: 100%;
-    border-radius: 5px;
-}
-
-.blog .meta-date {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    bottom: 10%;
-    left: calc(50% - 35px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 70px;
-    background: #202C45;
-    color: #ffffff;
-    opacity: 0;
-    transition: .5s;
-}
-
-.blog .meta-date span {
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 1px;
-}
-
-.blog .meta-date strong {
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 16px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
-
-.blog .blog-item:hover .meta-date {
-    bottom: calc(50% - 35px);
-    opacity: 1;
-}
-
-.blog .blog-text {
-    padding: 25px 0 20px 0;
-}
-
-.blog .blog-text h3 {
-    font-size: 22px;
-    font-weight: 700;
-}
-
-.blog .blog-text h3 a {
-    color: #202C45;
-}
-
-.blog .blog-text h3 a:hover {
-    color: #E81C2E;
-}
-
-.blog .blog-text p {
-    margin: 0;
-}
-
-.blog .blog-meta {
-    display: flex;
-}
-
-.blog .blog-meta p {
-    margin: 0;
-    font-size: 14px;
-    line-height: 14px;
-    padding: 0 10px;
-    border-right: 1px solid rgba(0, 0, 0, .15);
-}
-
-.blog .blog-meta p:first-child {
-    padding-left: 0;
-}
-
-.blog .blog-meta p:last-child {
-    padding-right: 0;
-    border: none;
-}
-
-.blog .blog-meta i {
-    color: #999999;
-    margin-right: 5px;
-}
-
-.blog .blog-meta a {
-    color: #999999;
-}
-
-.blog .blog-meta a:hover {
-    color: #E81C2E;
-}
-
-.blog .pagination {
-    margin-bottom: 15px;
-}
-
-.blog .pagination .page-link {
-    color: #202C45;
-    border-radius: 0;
-    border-color: #202C45;
-}
-
-.blog .pagination .page-link:hover,
-.blog .pagination .page-item.active .page-link {
-    color: #E81C2E;
-    background: #202C45;
-}
-
-.blog .pagination .disabled .page-link {
-    color: #999999;
-}
-
 
 /*******************************/
 /********* Contact CSS *********/
@@ -1343,7 +1201,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 35px 30px 10px 30px;
     border-radius: 5px;
-    background: #202C45;
+    background: #69a9e6;
     
 }
 
@@ -1928,7 +1786,7 @@ a:focus {
     position: relative;
     margin-top: 45px;
     padding-top: 90px;
-    background: #202C45;
+    background: #69a9e6;
 }
 
 .footer .footer-contact,
@@ -1946,7 +1804,7 @@ a:focus {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 2px;
-    color: #E81C2E;
+    color: #000000;
 }
 
 .footer .footer-link a {
@@ -1965,7 +1823,7 @@ a:focus {
 }
 
 .footer .footer-link a:hover {
-    color: #E81C2E;
+    color: #000000;
     letter-spacing: 1px;
 }
 
@@ -1985,7 +1843,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #202C45;
+    color: #000000;
     background: #ffffff;
     border-radius: 40px;
     margin-right: 5px;
@@ -1998,7 +1856,7 @@ a:focus {
 
 .footer .footer-social a:hover {
     color: #ffffff;
-    background: #E81C2E;
+    background: #000000;
 }
 
 .footer .footer-newsletter form {
@@ -2046,11 +1904,8 @@ a:focus {
 }
 
 .footer .copyright p a {
-    color: #E81C2E;
+    color: #000000;
     font-weight: 700;
     letter-spacing: 1px;
 }
 
-.footer .copyright p a:hover {
-    color: #ffffff;
-}
