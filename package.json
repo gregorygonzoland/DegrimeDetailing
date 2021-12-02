@@ -7,8 +7,6 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "npm run build && npm run dev && npm run open",
-    "open": "concurrently \"http-server -a localhost -p 1234\" \"sleepms 1000 && open http://localhost:1234/build/index.html\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,10 +18,5 @@
   "bugs": {
     "url": "https://github.com/gregorygonzoland/DegrimeDetailing/issues"
   },
-  "homepage": "https://github.com/gregorygonzoland/DegrimeDetailing#readme",
-  "devDependencies": {
-    "concurrently": "^6.4.0",
-    "http-server": "^14.0.0",
-    "sleep-ms": "^2.0.1"
-  }
+  "homepage": "https://github.com/gregorygonzoland/DegrimeDetailing#readme"
 }
